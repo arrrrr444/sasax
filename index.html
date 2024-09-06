@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Selamat Datang</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      width: 80%;
+      margin: 40px auto;
+      text-align: center;
+    }
+    
+    .teks-berjalan {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    @keyframes berjalan {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    }
+    
+    .teks-berjalan span {
+      animation: berjalan 10s infinite linear;
+      display: inline-block;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Selamat Datang</h1>
+    <div class="teks-berjalan">
+      <span>BELAJAR TAKEOVER DOMAIN</span>
+    </div>
+  </div>
+</body>
+</html>
